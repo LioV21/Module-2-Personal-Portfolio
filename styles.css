@@ -1,0 +1,27 @@
+/* General styles for the whole document */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc; /* Slightly lighter gray background for contrast */
+    color: #333;
+}
+
+/* Header Section styling */
+header {
+    background-color: #004a8c; /* Rich, deep blue background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #003a6d; /* Darker blue border */
+}
+
+/* Biography Section styling */
+#biography {
+    padding: 20px;
+    background-color: #b3cde0; /* Soft, light blue background */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
