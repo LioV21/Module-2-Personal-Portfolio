@@ -25,3 +25,68 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
 }
 
+/* Skills Section styling */
+#skills {
+    padding: 20px;
+    background-color: #ffffff; /* Clean white background */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd; /* Light gray border for separation */
+}
+
+#skills li:last-child {
+    border-bottom: none; /* Remove border for last item */
+}
+
+/* Projects Section styling */
+#projects {
+    padding: 20px;
+    background-color: #f4f4f4; /* Very light gray background for subtle contrast */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+    color: #004a8c; /* Deep blue for project titles */
+}
+
+/* Footer Section styling */
+footer {
+    background-color: #004a8c; /* Deep blue background */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 4px solid #003a6d; /* Darker blue border */
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #ffdd57; /* Soft yellow for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #ffd700; /* Slightly darker yellow on hover */
+}
